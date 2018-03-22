@@ -170,9 +170,15 @@ use fat arrow functions in life cycle methods -- sets the context as the parent,
 CLASSES - JS, not react
 
 class Animal {
-    constructor(){
+    constructor(type, sound){
         this.type = type;
         this.sound = sound;
     }
 }
 if I wanted to do same thing as a constructor look above
+
+does the same thing as constructor function
+
+new Animal ('lion','rawr')
+
+wanted to create a method on class -- methods on class auto adds to prototype object
